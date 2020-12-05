@@ -1,0 +1,25 @@
+.tool {
+  &__categories-row {
+    display: flex;
+    flex-direction: row;
+
+    .label {
+      border-radius: 0;
+      margin: 0 2px !important;
+    }
+  }
+
+  .add-category-btn {
+
+    &:hover {
+      background-color: lightgrey;
+    }
+
+    i {
+
+      margin: 0 !important;
+    }
+
+  }
+
+}
